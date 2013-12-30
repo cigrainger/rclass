@@ -2,7 +2,7 @@ Title: Test
 Date: 2013-12-30 17:20
 Category: Python
 Tags: pelican, publishing
-Slug: rclass/2013/12/test
+Slug: test
 Author: Christopher Grainger
 Summary: This is a test.
 

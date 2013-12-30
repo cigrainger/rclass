@@ -15,6 +15,14 @@ FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = '{slug}.html'
+TYPOGRIFY= True
+
+ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}.html'
+ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{slug}.html'
+RELATIVE_URLS = True
+
 # Blogroll
 LINKS =  (('Pelican', 'http://getpelican.com/'),
           ('Python.org', 'http://python.org/'),
@@ -25,7 +33,11 @@ LINKS =  (('Pelican', 'http://getpelican.com/'),
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 5
+
+THEME = "/Users/cigrainger/Git/mockingbird-mod"
+
+DISQUS_SITENAME = u'rforenergy'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

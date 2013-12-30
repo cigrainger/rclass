@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>R for Energy Economics and Policy</title><link href="http://cigrainger.github.io/rclass/" rel="alternate"></link><link href="http://cigrainger.github.io/rclass/feeds/python.atom.xml" rel="self"></link><id>http://cigrainger.github.io/rclass/</id><updated>2013-12-30T17:20:00+01:00</updated><entry><title>Test</title><link href="http://cigrainger.github.io/rclass/2013/12/test.html" rel="alternate"></link><updated>2013-12-30T17:20:00+01:00</updated><author><name>Christopher Grainger</name></author><id>tag:cigrainger.github.io/rclass,2013-12-30:2013/12/test.html</id><summary type="html">&lt;p&gt;This is a&amp;nbsp;test.&lt;/p&gt;
+&lt;h1&gt;&lt;span class="caps"&gt;THIS&lt;/span&gt; &lt;span class="caps"&gt;IS&lt;/span&gt; A&amp;nbsp;&lt;span class="caps"&gt;TEST&lt;/span&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;This is a&amp;nbsp;list.&lt;/li&gt;
+&lt;li&gt;This is a&amp;nbsp;list.&lt;/li&gt;
+&lt;li&gt;&lt;span class="caps"&gt;THIS&lt;/span&gt; is a &lt;em&gt;list&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry></feed>
