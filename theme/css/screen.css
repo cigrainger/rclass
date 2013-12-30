@@ -69,6 +69,14 @@ p a {
 	text-decoration: underline;
 	}
 
+ul {
+	list-style: outside disc;
+        }
+
+ol {
+	list-style: outside decimal;
+        }
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: sans-serif;
 	font-weight: bold;
@@ -158,6 +166,29 @@ div.codehilite {
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 	}
+
+
+code, pre {
+	font-family: monospace;
+	background-color: rgb(238, 238, 238);
+}
+
+/*sub and sup stolen from Twitter bootstrap.*/
+sub,
+sup {
+	position: relative;
+	font-size: 75%;
+	line-height: 0;
+	vertical-align: baseline;
+}
+
+sup {
+	top: -0.5em;
+}
+
+sub {
+	bottom: -0.25em;
+}
 
 .post pre, .page pre {
 	padding: .5em;
