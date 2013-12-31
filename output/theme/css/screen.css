@@ -62,7 +62,7 @@ body {
 	}
 
 a {
-	text-decoration: underline;
+	text-decoration: none;
 	color: #000;
 	}
 p a {
@@ -317,10 +317,6 @@ form.inline_edit {
 	text-align: center;
 	color: #CCC;
 	margin: 3em 0;
-	border: 1px solid #EEE;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
 	}
 #footer a { color: inherit; }
 #footer p { margin: 0; }
