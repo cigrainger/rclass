@@ -18,7 +18,7 @@ Whether you are on Windows, OS X, or Linux, you will have a plain text file edit
 - [Notepad++](http://notepad-plus-plus.org): *Windows* only.
 - [jEdit](http://www.jedit.org): *Windows*, *OS X*, and *Linux*.
 
-![Syntax Highlighting](http://i.imgur.com/yerb04B.png "Syntax Highlighting in R")
+![Syntax Highlighting](/images/syntaxhighlighting.png "Syntax Highlighting in R")
 
 These will be made available in the 'resources' section at the top of the page. You will be able to find links to a range of useful resources in that section, unsurprisingly.
 
