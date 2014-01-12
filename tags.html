@@ -9,7 +9,19 @@
         <link rel="stylesheet" href="http://cigrainger.github.io/rclass/theme/css/screen.css" type="text/css" />
         <link rel="stylesheet" href="http://cigrainger.github.io/rclass/theme/css/pygments.css" type="text/css" />
 
+<!-- Using MathJax, with the delimiters $ -->
+<!-- Conflict with pygments for the .mo and .mi -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+  "HTML-CSS": {
+  styles: {
+  ".MathJax .mo, .MathJax .mi": {color: "black ! important"}}
+  },
+  tex2jax: {inlineMath: [['$','$'], ['\\\\(','\\\\)']],processEscapes: true}
+  });
+</script>
 
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
     </head>
     <body>
 <div id="header">
@@ -26,9 +38,9 @@
         </div>
         <div id="wrapper">
             <div id="content">
-<a class="tag" href="/tag/R.html" style="font-size: 0.75em;" title="R">R</a>
-<a class="tag" href="/tag/admin.html" style="font-size: 0.75em;" title="admin">admin</a>
 <a class="tag" href="/tag/class.html" style="font-size: 0.75em;" title="class">class</a>
+<a class="tag" href="/tag/admin.html" style="font-size: 0.75em;" title="admin">admin</a>
+<a class="tag" href="/tag/R.html" style="font-size: 0.75em;" title="R">R</a>
 
                 <div class="clear"></div>
                 <div id="footer">
