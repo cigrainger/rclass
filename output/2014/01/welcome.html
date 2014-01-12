@@ -9,7 +9,19 @@
         <link rel="stylesheet" href="http://cigrainger.github.io/rclass/theme/css/screen.css" type="text/css" />
         <link rel="stylesheet" href="http://cigrainger.github.io/rclass/theme/css/pygments.css" type="text/css" />
 
+<!-- Using MathJax, with the delimiters $ -->
+<!-- Conflict with pygments for the .mo and .mi -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+  "HTML-CSS": {
+  styles: {
+  ".MathJax .mo, .MathJax .mi": {color: "black ! important"}}
+  },
+  tex2jax: {inlineMath: [['$','$'], ['\\\\(','\\\\)']],processEscapes: true}
+  });
+</script>
 
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
     </head>
     <body>
 <div id="header">
@@ -32,8 +44,8 @@
                     </h2>
 
                     <p>Welcome to the class. Over the next eleven weeks or so, you will learn how to use the R programming language for data analysis. My goal is to enable you to use R for your dissertation and to give you a skill you can use on the job market. As I will explain in the first class, this means more than just teaching you the R language. In this introductory post, I&#8217;ll give you a few tips for getting started. Just to be clear, these things are foundational and required for the&nbsp;course.</p>
-<p>Most of you have never used a programming language before, and it can be daunting. It&#8217;s easy to fall into bad habits or to be frustrated or confused when first learning how to code. This is especially true when your first programming language is R. For reasons that will become clear in the coming weeks, it&#8217;s very tempting to use R as a glorified &#8216;command line interface&#8217; (<span class="caps">CLI</span>). And certainly we <em>will</em> use R in that way, some of the&nbsp;time. </p>
-<p>However, one of the most important things you can do at the beginning of this course is to get used to writing code in &#8216;plain text&#8217; files.<sup id="fnref:fn-sample_footnote"><a class="footnote-ref" href="#fn:fn-sample_footnote" rel="footnote">1</a></sup> Set up a directory somewhere on your computer for use with this course (for reasons that will become clear later, don&#8217;t set this up on Dropbox or in any other cloud folder). In that folder, you will save your code files, which will be in the &#8216;.R&#8217; file&nbsp;format.</p>
+<p>Most of you have never used a programming language before, and it can be daunting. It&#8217;s easy to fall into bad habits or to be frustrated or confused when first learning how to code. This is especially true when your first programming language is R. For reasons that will become clear in the coming weeks, it&#8217;s very tempting to use R as a glorified &#8216;command line interface&#8217; (<span class="caps">CLI</span>). And certainly we <em>will</em> use R in that way, but only some of the time. Most of the time we will be focusing on producing fully reproduceable, idiomatic R code.<sup id="fnref:fn-1"><a class="footnote-ref" href="#fn:fn-1" rel="footnote">1</a></sup></p>
+<p>However, one of the most important things you can do at the beginning of this course is to get used to writing code in &#8216;plain text&#8217; files.<sup id="fnref:fn-2"><a class="footnote-ref" href="#fn:fn-2" rel="footnote">2</a></sup> Set up a directory somewhere on your computer for use with this course (for reasons that will become clear later, don&#8217;t set this up on Dropbox or in any other cloud folder). In that folder, you will save your code files, which will be in the &#8216;.R&#8217; file&nbsp;format.</p>
 <p>Whether you are on Windows, <span class="caps">OS</span> X, or Linux, you will have a plain text file editor on your computer. On Windows it&#8217;s Notepad and on <span class="caps">OS</span> X it&#8217;s Textedit. If you&#8217;re on Linux I shouldn&#8217;t have to tell you (and it varies by distribution). These are fine, but there are better (free) options available. One thing that you will likely find helpful over the coming weeks is to have syntax highlighting. You can see an example of this below. There are a number of great text editors available and I <em>very strongly</em> recommend you find one and learn to use it. Some of the most popular&nbsp;are:</p>
 <ul>
 <li><a href="http://www.sublimetext.com">Sublime Text</a>: <em>Windows</em>, <em><span class="caps">OS</span> X</em>, and <em>Linux</em>. This is the text editor I&nbsp;use.</li>
@@ -51,14 +63,14 @@
 </ul>
 <p>Just one last thing: comments are open on this site. Remember that they are public, but they are a good way to get help or have discussion about the topics covered in the&nbsp;class.</p>
 <p>I look forward to seeing you all on Wednesday, assuming the room booking is&nbsp;confirmed.</p>
-<p>This is a test: 
-..&nbsp;math::</p>
-<p>\alpha = 10^2 +&nbsp;\theta_{i,j}</p>
 <div class="footnote">
 <hr />
 <ol>
-<li id="fn:fn-sample_footnote">
-<p>If you are not familiar with plain text, a great primer is <a href="http://www.linfo.org/plain_text.html">here</a>.&#160;<a class="footnote-backref" href="#fnref:fn-sample_footnote" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<li id="fn:fn-1">
+<p>If you are not familiar with plain text, a great primer is <a href="http://www.linfo.org/plain_text.html">here</a>.&#160;<a class="footnote-backref" href="#fnref:fn-1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:fn-2">
+<p>Writing &#8216;idiomatic&#8217; code means not just writing code that works, but code that follows best practices in terms of both understandability in the R community and optimising the performance of the code for R specifically. R is a bit of a funny language, especially since the vast majority of R &#8216;users&#8217; don&#8217;t see themselves as R &#8216;programmers&#8217;. We&#8217;ll be dismissing that false dichotomy. I&#8217;ll post more on &#8216;idiomatic R&#8217; as this course goes on.&#160;<a class="footnote-backref" href="#fnref:fn-2" rev="footnote" title="Jump back to footnote 2 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
