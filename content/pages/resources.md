@@ -10,16 +10,14 @@ This is a list of links to resources for students on R for Energy Economics and 
 - [RStudio](http://www.rstudio.com): This is an 'integrated development environment' (IDE) for R. We will be using it in this course.
 - [R-bloggers](http://www.r-bloggers.com): A 'best of' R blogs. Usually interesting.
 - [idre at UCLA](http://www.ats.ucla.edu/stat/r/): The Institute for Digital Research and Education at UCLA has a lot of very good resources for learning R. Some of the content is dated.
-
-### Text editors
-- [Sublime Text](http://www.sublimetext.com): *Windows*, *OS X*, and *Linux*. This is the text editor I use and I thoroughly recommend it.
-- [Notepad++](http://notepad-plus-plus.org): *Windows* only.
-- [jEdit](http://www.jedit.org): *Windows*, *OS X*, and *Linux*.
+- [Stack Overflow](http://stackoverflow.com/questions/tagged/r): This is the best place to search for answers to your questions. If you can't find the answer here, you can also ask questions and people are very quick to respond.
+- [Quick-R](http://www.statmethods.net): This is a very good 'quick reference' for R.
+- [R Cookbook](http://www.cookbook-r.com): Another very good reference site. This is particularly good for `ggplot2`.
 
 ### Online interactive R classes
 - [Code School: Try R](http://tryr.codeschool.com)
 - [Data Camp: Introduction to R](https://www.datacamp.com/courses/introduction-to-r)
 
 ### LaTeX
-[MacTeX](http://tug.org/mactex/): Mac users can install the most popular LaTeX distribution here.
-[MiKTeX](http://miktex.org): This is the most popular Windows LaTeX distribution.
+- [MacTeX](http://tug.org/mactex/): Mac users can install the most popular LaTeX distribution here.
+- [MiKTeX](http://miktex.org): This is the most popular Windows LaTeX distribution.

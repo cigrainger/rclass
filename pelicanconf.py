@@ -40,6 +40,7 @@ DEFAULT_PAGINATION = 5
 THEME = "/Users/cigrainger/Git/mockingbird-mod"
 
 DISQUS_SITENAME = u'rforenergy'
+GOOGLE_ANALYTICS = 'UA-47101624-1'
 
 STATIC_PATHS = ['images', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
