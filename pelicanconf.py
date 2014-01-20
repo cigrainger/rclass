@@ -44,6 +44,7 @@ GOOGLE_ANALYTICS = 'UA-47101624-1'
 
 STATIC_PATHS = ['images', 'extra/CNAME', 'slides']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+PAGE_EXCLUDES = ['slides']
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
