@@ -21,3 +21,8 @@ This is a list of links to resources for students on R for Energy Economics and 
 ### LaTeX
 - [MacTeX](http://tug.org/mactex/): Mac users can install the most popular LaTeX distribution here.
 - [MiKTeX](http://miktex.org): This is the most popular Windows LaTeX distribution.
+
+### Lecture slides
+
+- [Lecture 1: 22 January, 2014](http://cigrainger.github.io/intro/#1)
+- [Lecture 2: 29 Jnauary, 2014](http://cigrainger.github.io/dataprep1/#1)

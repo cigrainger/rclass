@@ -42,9 +42,8 @@ THEME = "/Users/cigrainger/Git/mockingbird-mod"
 DISQUS_SITENAME = u'rforenergy'
 GOOGLE_ANALYTICS = 'UA-47101624-1'
 
-STATIC_PATHS = ['images', 'extra/CNAME', 'slides']
+STATIC_PATHS = ['images', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
-PAGE_EXCLUDES = ['slides']
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
