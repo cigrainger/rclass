@@ -6,7 +6,6 @@ This is a list of links to resources for students on R for Energy Economics and 
 
 ### Main resources
 - [The R Project for Statistical Computing](http://www.r-project.org): Download R here. Some basic introductory information as well.
-- [GitHub](https://www.github.com): You will need to make an account here for the class. It's good practice to use git when coding and you can learn from established programmers.
 - [RStudio](http://www.rstudio.com): This is an 'integrated development environment' (IDE) for R. We will be using it in this course.
 - [R-bloggers](http://www.r-bloggers.com): A 'best of' R blogs. Usually interesting.
 - [idre at UCLA](http://www.ats.ucla.edu/stat/r/): The Institute for Digital Research and Education at UCLA has a lot of very good resources for learning R. Some of the content is dated.
@@ -17,6 +16,12 @@ This is a list of links to resources for students on R for Energy Economics and 
 ### Online interactive R classes
 - [Code School: Try R](http://tryr.codeschool.com)
 - [Data Camp: Introduction to R](https://www.datacamp.com/courses/introduction-to-r)
+
+### GitHub
+- [GitHub](https://www.github.com): You will need to make an account here for the class. It's good practice to use git when coding and you can learn from established programmers.
+- [GitHub for Beginners](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1#awesm=~ovbx4XFei3eub6): An introductory article on GitHub.
+- [How the Heck Do I Use GitHub?](http://lifehacker.com/5983680/how-the-heck-do-i-use-github): Another good article from Lifehacker.
+- [git/github guide](http://kbroman.github.io/github_tutorial/): A very solid and simple tutorial on Git/GitHub.
 
 ### LaTeX
 - [MacTeX](http://tug.org/mactex/): Mac users can install the most popular LaTeX distribution here.
